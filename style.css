@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    margin: 0 auto;
+    background-image: url("img/fold2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+#fold-box{
+    color: #C94D3A;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+main{
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+li{
+    list-style: none;
+    color:#AAA;
+}
+
+li:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+#trenutna{
+    color: #C94D3A;
+}
+
+.drop2{
+    background-color:black;
+}
+
+p{
+    font-size: 24px;
+}
+
+button{
+    color: white;
+    background-color: #C94D3A;
+    padding: 15px 30px;
+    border-style: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+h1, h2{
+    user-select: none;
+}
+
+#naslov-um{
+    font-size: 78px;
+    font-weight: 300;
+}
+
+#naslov-ime{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    padding: 12px 10px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+nav{
+    height: 100px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 4%;
+    color: white;
+}
+
+
+button:hover{
+    background-color: white;
+    color:#C94D3A;
+    border-style: none;
+}
+
+
+
+#maliLogo{
+    width: 60px;
+    margin-left: 10%;
+    transition: 0.2s;
+}
+
+#maliLogo:hover{
+    transform: scale(1.1);
+}
+
+.meni{
+    width: 100%;
+}
+
+label{
+    float: right;
+}
+
+#mobilMeni, #toggle, #velikaCrta{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 3%;
+}
+
+li a{
+    text-decoration: none;
+    margin: 0;
+    color: #AAA;
+}
+
+li a:hover{
+    color: white;
+    transition: 0.25s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 0.25s ease-in-out;
+    animation: MoveUpDown 0.5s ease-in-out;
+  }
+
+  .sticky:hover{
+      opacity: 1;
+  }
+
+
+#red-line{
+    width: 3px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #C94D3A;
+    margin-top: 250px;
+    animation: MoveUpDown 1.5s ease-in-out infinite;
+}
+
+article{
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    padding-top: 60px;
+    text-align: center;
+    align-items: center;
+    background-color: #342D2D;
+    color: #AAA;
+    border-top: 3px solid #C94D3A;
+}
+
+#visina{
+    height: 100px;
+}
+
+@keyframes MoveUpDown {
+    0%{
+      height: 5px;;
+    }
+    100% {
+      height: 100;
+    }
+  }
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    #maliLogo, .crta, #red-line, #fold-box-text, .nav-list-wrapper.open{
+        display: none;
+    }
+
+    li, #velikaCrta {
+        display:block;
+        color: white;
+    }
+
+    ul, nav{
+        flex-direction: column;
+        text-align: right;
+    }
+    nav{
+        height: 200px;
+        align-items:flex-end;
+    }
+    
+
+    #fold-box{
+        margin-top: 250px;
+    }
+
+    nav{
+        enable-background: 0;
+    }
+
+    .dropdown-content{
+        background-color:black;
+    }
+}
+

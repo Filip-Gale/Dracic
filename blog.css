@@ -1,0 +1,64 @@
+#fold{
+    height: 300px;
+}
+
+body{
+    background-image: url("img/fold3.jpg");
+    background-size: 100% 400px;
+}
+
+#fold-box{
+    margin-top: 50px;
+}
+
+.clanak{
+    width: 80%;
+    margin: 0 auto;
+    border-top: 3px #C94D3A solid;
+    border-bottom: 3px #C94D3A solid;
+    background-color: #2B2525;
+    margin-top: 75px;
+    padding-bottom: 35px;
+}
+
+h5{
+    font-size: 36px;
+    padding: 20px 35px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clanak p{
+    font-size: 24px;
+    padding: 20px 35px;
+    margin: 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clanak img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+#vani{
+    background-color: #342D2D;
+    padding-top: 35px;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+    .clanak p{
+        width: 90%;
+    }
+
+    .clanak{
+        width: 90%;
+    }
+
+    #fold{
+        height: 190px;
+    }
+}

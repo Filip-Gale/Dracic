@@ -1,0 +1,164 @@
+#fold{
+    height: 300px;
+}
+
+body{
+    background-image: url("img/fold3.jpg");
+    background-size: 100% 400px;
+}
+
+#fold-box{
+    margin-top: 50px;
+}
+
+article{
+    background-color: #2B2525;
+    display: flex;
+    flex-direction: column;
+}
+
+#forma{
+    display: flex;
+    flex-direction: row;
+    background-color: #2B2525;
+    padding-top: 50px;
+}
+
+h5{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    background-color: #342D2D;
+    padding:35px;
+}
+
+#info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#poruka{
+    width: 100%;
+}
+
+input[type=reset] {
+    background-color: #C94D3A;
+    padding: 15px 30px;
+    border-style: none;
+    font-size: 18px;
+    transition: 0.5s;
+    color: white;
+}
+
+input[type=reset]:hover {
+    background-color: white;
+    color: #C94D3A;
+}
+
+#gumb{
+    background-color: #2B2525;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+#poruka textarea{
+    width: 75%;
+    height: 194px;
+    background-color: #342D2D;
+    border-style: none;
+    transition: 0.2s;
+    outline: 2px solid #342D2D;
+    padding-left: 15px;
+    font-size: 24px;
+    color: white;
+}
+
+#poruka textarea:focus{
+    outline: 2px solid #C94D3A;
+}
+
+input[type=text] {
+    background-color: #342D2D;
+    border-style: none;
+    width: 77%;
+    height: 35px;
+    margin-bottom: 18px;
+    margin-left: 20%;
+    padding-left: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+input[type=text]:focus {
+    background-color: #342D2D;
+    border-style: none;
+    outline: none;
+    animation: bot 0.2s ease-in forwards;
+}
+
+#ikone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#ikone a{
+    width: 5%;
+    margin: 40px;
+}
+
+img{
+    width:100px;
+    transition: 0.2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+  @keyframes bot {
+    0%{
+        border-bottom: 3px solid #342D2D;
+    }
+    100% {
+        border-bottom: 3px solid #C94D3A;
+      
+    }
+  }
+
+  @media only screen and (max-width: 1248px) {
+    #forma{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+     
+    input[type=text] {
+        margin: 0 auto;
+        margin-bottom: 18px;
+        width: 65%;
+        text-align: center;
+    }
+
+    #poruka textarea{
+        width: 65%;
+        margin-left: 17.5%;
+    }
+
+    #ikone a{
+        width: 7%;
+        margin: 30px;
+    }
+
+    img{
+        width:78px;
+        transition: 0.2s;
+    }
+      
+  }
+  
