@@ -37,10 +37,10 @@ body{
     height: auto;
     margin-top: 20px;
     filter: grayscale(100%);
+    transition: 0.2s;
 }
 
 .colum img:hover{
-    transition: 0.2s;
     transform: scale(1.05);
     filter: grayscale(0%);
 }

@@ -49,6 +49,13 @@ h5{
     padding-bottom: 35px;
 }
 
+#vani h2{
+    text-align: center;
+    color: #C94D3A;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 767px) {
     .clanak p{
         width: 90%;

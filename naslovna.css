@@ -61,11 +61,13 @@ button{
     height: 400px;
     padding-left: 10%;
     padding-top: 35px;
+    padding-right: 2%;
 }
 
 pre{
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
 }
 
 #kontakt{
@@ -100,6 +102,26 @@ picture{
 
 #sivi2 button{
     margin-top: 20px;
+}
+
+#red{
+    display: flex;
+    flex-direction: row;
+}
+
+#linkovi{
+    margin-left: 2%;
+}
+
+#linkovi a{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color: white;
+}
+
+#linkovi a:hover p{
+    opacity: 1;
 }
 
 

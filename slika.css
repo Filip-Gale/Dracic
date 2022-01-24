@@ -14,9 +14,16 @@ article img{
 
 #info{
     display: flex;
-    flex-direction: column;
-    padding: 35px 0 35px 10%;
+    flex-direction: row;
+    padding: 35px 10% 35px 10%;
     background-color: #342D2D;
+}
+
+#info2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
 }
 
 #druge{
