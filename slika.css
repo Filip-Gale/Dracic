@@ -20,7 +20,7 @@ article img{
 }
 
 #info2{
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-right: 15%;
@@ -86,5 +86,8 @@ article img{
 
     #visina{
         height: 180px;
+    }
+    #info{
+        flex-direction: column;
     }
 }
