@@ -240,6 +240,7 @@ footer{
     nav{
         height: 200px;
         align-items:flex-end;
+        background-color: #2B2525;
     }
     
 
@@ -247,15 +248,15 @@ footer{
         margin-top: 250px;
     }
 
-    nav{
-        enable-background: 0;
-    }
-
     .dropdown-content{
         background-color:black;
     }
     body{
         background-image: url("img/fold-5.jpg");
+    }
+
+    .sticky{
+        position: static;
     }
 }
 
